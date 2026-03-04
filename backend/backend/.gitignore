@@ -1,0 +1,43 @@
+# python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# virtual environment
+venv/
+env/
+.venv/
+
+# environment variables
+.env
+.env.*
+
+# logs
+*.log
+
+# fastapi / uvicorn runtime files
+*.pid
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# build
+dist/
+build/
+*.egg-info/
+
+# temp files
+tmp/
+temp/
+cache/
