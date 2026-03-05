@@ -1,0 +1,87 @@
+# ===============================
+# IDE
+# ===============================
+.idea/
+.vscode/
+
+# ===============================
+# OS files
+# ===============================
+.DS_Store
+Thumbs.db
+
+# ===============================
+# Python / FastAPI
+# ===============================
+__pycache__/
+*.py[cod]
+
+# virtual environments
+venv/
+env/
+.venv/
+
+# environment variables
+.env
+.env.*
+
+# logs
+*.log
+
+# pytest / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ===============================
+# ML models & experiment outputs
+# ===============================
+*.pkl
+*.joblib
+*.h5
+*.onnx
+*.pt
+*.pth
+
+runs/
+logs/
+checkpoints/
+
+# datasets
+data/
+datasets/
+
+# notebooks
+.ipynb_checkpoints/
+
+# ===============================
+# Node / Next.js
+# ===============================
+node_modules/
+.next/
+out/
+build/
+
+# coverage
+coverage/
+
+# debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# ===============================
+# misc
+# ===============================
+*.pem
+tmp/
+temp/
+cache/
+dist/
+*.egg-info/
+.vercel
